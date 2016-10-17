@@ -63,6 +63,15 @@ https://dotnetfiddle.net/hVw5r4
 Sommige Math-functies (zoals `Math.Max`) hebben 2 (of meer) parameters nodig:
 
 ```
+double x = -2.18;
+double y = 3.23;
+double z = Math.Max(x, y);
+Console.WriteLine("Het grootste getal van {0} en {1} is {2}.", x, y, z);
+```
+
+of korter:
+
+```
 Console.WriteLine("Het grootste getal van {0} en {1} is {2}.", 
-	          x, 3.23, Math.Max(x, 3.23));
+	          -2.18, 3.23, Math.Max(x, 3.23));
 ```
