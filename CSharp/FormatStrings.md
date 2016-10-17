@@ -48,7 +48,7 @@ Console.WriteLine("Een bedrag van {0} kan ook weergegeven worden als {0:C}.", pr
 
 # Wanneer String.Format gebruiken?
 
-`Console.WriteLine` ondersteund maar b.v. `MessageBox.Show` niet.
+`Console.WriteLine` ondersteunt format strings maar b.v. `MessageBox.Show` niet.
 In die gevallen (of als je gewoon een format-string wil omzetten naar een gewone
 string) gebruik je `String.Format` (de static `Format`-method van de
 `String`-class).
