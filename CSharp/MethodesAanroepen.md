@@ -1,6 +1,6 @@
 # Methodes aanroepen
 
-Ze zijn steeds te herkennen aan de ronde haken `()`. Tussen de haken kunnen
+Een method-aanroep is steeds te herkennen aan de ronde haken `()`. Tussen de haken kunnen
 we **argumenten** meegeven.
 
 Voorbeelden:
@@ -38,9 +38,11 @@ wordt deze waarde gewoon weggegooid. We gebruiken `ReadLine()` hier enkel
 zodat de gebruiker op `<ENTER>` zou drukken om verder te gaan.
 
 
-# Oefening
+# Oefeningen
 
-Probeer zelf deze oef. uit op https://dotnetfiddle.net/YhB3Oz :
+## ReadLine returnt een string 
+
+https://dotnetfiddle.net/YhB3Oz
 
 ```
 public class ReadLineExample
@@ -52,4 +54,15 @@ public class ReadLineExample
 		Console.WriteLine("Hallo {0}", naam);
 	}
 }
+```
+
+## Math-functies
+
+https://dotnetfiddle.net/hVw5r4
+
+Sommige Math-functies (zoals `Math.Max`) hebben 2 (of meer) parameters nodig:
+
+```
+Console.WriteLine("Het grootste getal van {0} en {1} is {2}.", 
+	          x, 3.23, Math.Max(x, 3.23));
 ```
