@@ -22,7 +22,8 @@ Console.WriteLine(3); // argument is een int
 Console.WriteLine(4.0); // argument is een double
 ```
 
-In dit screenshot zie je hoe de 11e van de 19 overloads van `Console.WriteLine`
-wordt geslecteerd, de overload met een `string` als argument:
+In dit screenshot zie je hoe Visual Studio's IntelliSense de 11e van de 19 
+overloads van `Console.WriteLine` wordt geslecteerd, de overload met een 
+`string` als argument:
 
 ![Method Overloads in VS](img/MethodOverloadsInVS.png)
