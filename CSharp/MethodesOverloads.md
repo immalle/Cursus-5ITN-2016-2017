@@ -18,3 +18,8 @@ Je kan `WriteLine` ook aanroepen met een `int` of `double` als argument:
 Console.WriteLine(3);
 Console.WriteLine(4.0);
 ```
+
+In dit screenshot zie je hoe de 11e van de 19 overloads van `Console.WriteLine`
+wordt geslecteerd :
+
+!(Method Overloads in VS)[img/MethodOverloadsInVS.png]
