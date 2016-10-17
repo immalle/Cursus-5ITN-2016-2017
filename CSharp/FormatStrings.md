@@ -4,9 +4,9 @@ Er zijn een aantal plekken waar je format strings kan gebruiken:
 
 - `Console.WriteLine(...)` : een veel gebruikte manier om output op de console
   te tonen.
-- `String.Format(...)` : de static Format-method van de String-class die de
+- `String.Format(...)` : de static `Format`-method van de `String`-class die de
   geformatteerde string returnt
-- `.ToString(...)` : de ToString-method die bijna alle objecten heeft
+- `.ToString(...)` : de ToString-method die bijna objecten hebben
   
 # Eenvoudige format-strings
 
