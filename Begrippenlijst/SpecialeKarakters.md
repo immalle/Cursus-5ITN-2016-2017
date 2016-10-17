@@ -1,5 +1,5 @@
 | karakter | benaming(en) | ASCII (hex) |
-|---|---|--|
+|---|---|---|
 | `/` | slash | `2F` |
 | `\` | back-slash | `5C` |
 | `-` | dash, min-teken, streepje | `45` |
