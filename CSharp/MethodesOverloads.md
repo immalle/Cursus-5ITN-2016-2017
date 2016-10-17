@@ -22,4 +22,4 @@ Console.WriteLine(4.0);
 In dit screenshot zie je hoe de 11e van de 19 overloads van `Console.WriteLine`
 wordt geslecteerd :
 
-!(Method Overloads in VS)[img/MethodOverloadsInVS.png]
+![Method Overloads in VS](img/MethodOverloadsInVS.png)
