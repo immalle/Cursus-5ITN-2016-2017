@@ -26,6 +26,22 @@ Console.WriteLine("Een cirkel met straal " + straal +
                   oppervlakte + " als oppervlakte.");
 ```
 
+# Wanneer String.Format gebruiken?
+
+`Console.WriteLine` ondersteunt format strings maar b.v. `MessageBox.Show` niet.
+In die gevallen (of als je gewoon een format-string wil omzetten naar een gewone
+string) gebruik je `String.Format` (de static `Format`-method van de
+`String`-class).
+
+```
+string s = String.Format("{0} + {1} = {2}", 2, 3, 2+3);
+MessageBox.Show(s);
+```
+
+# Voorbeelden + oefeningen simpele format-strings
+
+https://dotnetfiddle.net/bUSimf
+
 # Geavanceerde format-strings
 
 Een format-string kan objecten anders weergeven dan ze werkelijk zijn (vergelijk
@@ -44,18 +60,6 @@ Of opmaken als een munteenheid (currency):
 
 ```
 Console.WriteLine("Een bedrag van {0} kan ook weergegeven worden als {0:C}.", price);
-```
-
-# Wanneer String.Format gebruiken?
-
-`Console.WriteLine` ondersteunt format strings maar b.v. `MessageBox.Show` niet.
-In die gevallen (of als je gewoon een format-string wil omzetten naar een gewone
-string) gebruik je `String.Format` (de static `Format`-method van de
-`String`-class).
-
-```
-string s = String.Format("{0} + {1} = {2}", 2, 3, 2+3);
-MessageBox.Show(s);
 ```
 
 # ToString
@@ -79,6 +83,8 @@ string hex = 63.ToString("X");
 Console.WriteLine("{0} is in het hexadecimaal {1}.", 63, hex);
 ```
 
+# Cultuurgebonden
+
 Het afprinten van een munteenheid (net zoals de weergave van datum en tijd) is
 verbonden met een cultuur:
 
@@ -91,9 +97,9 @@ Console.WriteLine(bedragEuro); // Vlaamse Euro's
 
 # Voorbeelden
 
-- https://dotnetfiddle.net/IBDYzc (Advanced format strings en CultureInfo)
 - https://dotnetfiddle.net/PoyWHr (Oppervlakte en omtrek v.e. cirkel)
 - https://dotnetfiddle.net/hVw5r4 (Math-functies)
+- https://dotnetfiddle.net/IBDYzc (Advanced format strings en CultureInfo)
 
 # Further reading
 
