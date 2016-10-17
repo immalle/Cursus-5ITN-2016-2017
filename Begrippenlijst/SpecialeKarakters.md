@@ -7,8 +7,8 @@
 | `:` | colon, dubbele punt | `3A` |
 | `;` | semi-colon, puntkomma | `3B` |
 | `|` | pipe-symbol, sluisteken, staafje, verticale streep | `7C` |
-| ~'~ | single quote | `27` |
-| ~"~ | double quote, aanhalingsteken | `22` |
+| `'` | single quote | `27` |
+| `"` | double quote, aanhalingsteken | `22` |
 | `` ` `` | backtick | `60` |
 | `&` | ampersand | `26` |
 | `^` | caret, accent circonflexe/circumflex | `94` |
