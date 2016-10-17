@@ -36,3 +36,20 @@ Console.ReadLine();
 heeft als return-waarde hetgeen de gebruiker ingetypt heeft maar hier
 wordt deze waarde gewoon weggegooid. We gebruiken `ReadLine()` hier enkel
 zodat de gebruiker op `<ENTER>` zou drukken om verder te gaan.
+
+
+# Oefening
+
+Probeer zelf deze oef. uit op https://dotnetfiddle.net/YhB3Oz :
+
+```
+public class ReadLineExample
+{	
+	public static void Main()
+	{
+		Console.Write("Geef je naam: ");
+		string naam = Console.ReadLine(); // de method ReadLine returnt een string
+		Console.WriteLine("Hallo {0}", naam);
+	}
+}
+```
