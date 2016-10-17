@@ -6,7 +6,7 @@ Er zijn een aantal plekken waar je format strings kan gebruiken:
   te tonen.
 - `String.Format(...)` : de static `Format`-method van de `String`-class die de
   geformatteerde string returnt
-- `.ToString(...)` : de ToString-method die bijna objecten hebben
+- `.ToString(...)` : de ToString-method die alle objecten hebben
   
 # Eenvoudige format-strings
 
