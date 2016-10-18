@@ -9,7 +9,9 @@
 
 # CSharp
 
-- [Format strings](CSharp/FormatStrings.md)
+- [Eenvoudige format strings](CSharp/SimpleFormatStrings.md)
+- [Geavanceerde format strings en cultuurgebonden instellingen](CSharp/AdvancedFormatStrings.md)
+
 - [Methodes aanroepen](CSharp/MethodesAanroepen.md)
 - [Methodes : overloads](CSharp/MethodesOverloads.md)
  
