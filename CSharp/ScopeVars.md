@@ -103,5 +103,5 @@ Vaststellingen:
 
 ## Further reading
 
-- [Scope van methods en variabelen uit verschillende classes](CSharp/ScopeInterClass.md)
+- [Scope van methods en variabelen uit verschillende classes](ScopeInterClass.md)
 
