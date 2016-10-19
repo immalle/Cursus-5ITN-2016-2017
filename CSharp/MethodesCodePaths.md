@@ -14,11 +14,11 @@ static int BerekenSom(int a, int b)
 
 ziet er in Visual Studio zo uit:
 
-![Method with code path error](CodePathErrorInVS.png)
+![Method with code path error](img/CodePathErrorInVS.png)
 
 en je krijg deze error:
 
-![Code path error](CodePathErrorInVS2.png)
+![Code path error](img/CodePathErrorInVS2.png)
 
 Dit kan je oplossen door een standaard return-waarde op te geven.
 

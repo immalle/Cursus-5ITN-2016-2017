@@ -21,7 +21,7 @@
 - [Methodes schrijven](CSharp/MethodesSchrijven.md)
 - [Parameters toevoegen aan methodes](CSharp/MethodesParameters.md)
 - [Overloads van zelf geschreven methods](CSharp/MethodesSchrijvenOverloads.md)
-- [Methodes met return-waarden](CSharp/MethodesReturn.md)
+- [Methodes met return-waarden schrijven](CSharp/MethodesReturn.md)
 - [Compiler-fouten : code-paden](CSharp/MethodesCodePaths.md)
 - [Code-paden bij void-methods](CSharp/MethodesVoid.md)
 

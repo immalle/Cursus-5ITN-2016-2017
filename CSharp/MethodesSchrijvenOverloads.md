@@ -25,3 +25,10 @@ class Program {
 }
 ```
 
+# Oefening
+
+- Maak een nieuw Console-Applicatie in Visual Studio
+- Definieer de 2 overloads van de method `Groet`
+- Kijk hoe Visual Studio's *IntelliSense* de verschillende overloads laat zien,
+  net zoals het dat voor methods uit de *.Net standard libbrary* doet.
+  

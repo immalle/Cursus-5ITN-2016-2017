@@ -15,11 +15,11 @@ ingetipt
 
 Speciaal aan methodes met een return-waarde is dat ze op een bepaald moment
 ook een object *returnen*. Dat gebeurt met het keyword `return` gevolgd
-door het object dat moet gereturnt worden.
+door het object dat moet gereturnt worden:
 
-Een method die een `string`-object returnt, doet b.v. `return "test";`.
-Een method die een `bool`-object returnt, doet b.v. `return false;`.
-Een method die een `int`-object returnt, doet b.v. `return 3;`.
+- Een method die een `string`-object returnt, doet b.v. `return "test";`.
+- Een method die een `bool`-object returnt, doet b.v. `return false;`.
+- Een method die een `int`-object returnt, doet b.v. `return 3;`.
 
 
 ## De GenereerGroet-methode
