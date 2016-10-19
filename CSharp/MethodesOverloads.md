@@ -27,3 +27,21 @@ overloads van `Console.WriteLine` slecteert, de overload met een `string`
 als argument:
 
 ![Method Overloads in VS](img/MethodOverloadsInVS.png)
+
+
+## Oefening
+
+Maak een nieuwe Console-Applicatie in Visual Studio.
+
+Gebruik *IntelliSense* om van enkele methods de verschillende overloads te
+bekijken. 
+
+> Met de pijltjestoetsen kan je door de overloads scrollen.
+
+Bekijk enkele methoden zoals :
+
+- Console.WriteLine(...)
+- Math.Round(...)
+- Math.Pow(...)
+- ...
+  

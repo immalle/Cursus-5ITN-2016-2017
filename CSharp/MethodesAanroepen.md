@@ -35,7 +35,7 @@ Console.ReadLine();
 
 heeft als return-waarde hetgeen de gebruiker ingetypt heeft maar hier
 wordt deze waarde gewoon weggegooid. We gebruiken `ReadLine()` hier enkel
-zodat de gebruiker op `<ENTER>` zou drukken om verder te gaan.
+opdat de gebruiker op `<ENTER>` zou moeten drukken om verder te gaan.
 
 
 # Oefeningen
