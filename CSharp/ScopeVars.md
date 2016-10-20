@@ -14,7 +14,7 @@ de scope.
 De accolades (`{` en `}`) markeren het begin en einde van een code-blok.
 
 ```
-void PrintLeeftijd()) {
+void PrintLeeftijd() {
   int leeftijd;
   leeftijd = 16;
   Console.WriteLine(leeftijd);
@@ -34,10 +34,10 @@ class Persoon {
   string naam = "Joske";
   
   void PrintNaam() {
-    Console.WriteLine(joske);
+    Console.WriteLine(naam);
   }
 
-  void PrintLeeftijd()) {
+  void PrintLeeftijd() {
     int leeftijd;
     leeftijd = 16;
     Console.WriteLine(leeftijd);
@@ -81,10 +81,10 @@ class Persoon {
   string naam = "Joske";
   
   void PrintNaam() {
-    Console.WriteLine(joske);
+    Console.WriteLine(naam);
   }
 
-  void PrintLeeftijd()) {
+  void PrintLeeftijd() {
     int leeftijd;
     leeftijd = 16;
     Console.WriteLine(leeftijd);
