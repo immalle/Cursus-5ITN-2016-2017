@@ -9,6 +9,16 @@
 
 # CSharp
 
+## Types van variabelen
+
+- [Variabelen](CSharp/Vars.md)
+- [Gehele getallen (int)](CSharp/VarsInt.md)
+- [Komma-getallen (double)](CSharp/VarsDouble.md)
+
+## Objecten
+
+- [Objecten](CSharp/Objects.md)
+
 ## Format strings
 
 - [Eenvoudige format strings](CSharp/SimpleFormatStrings.md)
