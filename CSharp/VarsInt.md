@@ -45,25 +45,26 @@ Een greep uit enkele andere types voor gehele getallen:
 | ushort  | System.UInt16 | een unsigned short | 16 bits |                        0 |                     65535 |
 | short   | System.Int16  |                    | 16 bits |                   -32768 |                     32767 |
 
-> Oef:
->
-> Schrijf een programma dat in een mooi uitgelijnde tabel (gebruik liefst
-> Format-strings) de minimum en maximum waarde van elk type afdrukt.
->
-> Voor een overzicht van alle types, zie
-> https://msdn.microsoft.com/en-us/library/ya5y69ds.aspx
-> 
-> Je kan deze code gebruiken:
-> 
-> ```
-> string fmt = "{0,20} {1,20} {2,20}";
-> Console.WriteLine(fmt, "type", "minimum", "maximum");
-> Console.WriteLine(fmt, "sbyte", sbyte.MinValue, sbyte.MaxValue);
-> ```
-> 
-> (Alle basistypes hebben een `MinValue`- en `MaxValue`-property waarmee hun
-> kleinste (respectievelijk hoogst) mogelijke waarde mee kan opgevraagd worden.)
->
+
+## Oefening
+
+Schrijf een programma dat in een mooi uitgelijnde tabel (gebruik liefst
+Format-strings) de minimum en maximum waarde van elk type afdrukt.
+
+Voor een overzicht van alle types, zie
+https://msdn.microsoft.com/en-us/library/ya5y69ds.aspx
+ 
+Je kan deze code gebruiken:
+
+```
+string fmt = "{0,20} {1,20} {2,20}";
+Console.WriteLine(fmt, "type", "minimum", "maximum");
+Console.WriteLine(fmt, "sbyte", sbyte.MinValue, sbyte.MaxValue);
+```
+ 
+(Alle basistypes hebben een `MinValue`- en `MaxValue`-property waarmee hun
+kleinste (respectievelijk hoogst) mogelijke waarde mee kan opgevraagd worden.)
+
 > OPL: https://dotnetfiddle.net/vO9YWt
 
 
