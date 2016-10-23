@@ -17,18 +17,23 @@ double x = 2.6;
 ## Rekenkundige operatoren
 
 Variabelen van type `double` ondersteunen dezelfde rekenkundige operatoren als `int`.
+Zie [VarsInt.md](Gehele getallen (int)).
 
-## Voorbeeld
+## Varianten
 
-https://dotnetfiddle.net/wOUaq7
+Een `double` in C# komt overeen met het .NET type `System.Double`.
 
-## Vergelijkingsoperatoren
+Er bestaat ook nog `float` wat overeen komt met `System.Single`.
 
-Variabelen van type `double` ondersteunen dezelfde vergelijkingsoperatoren als `int`.
+Zie ook:
 
-## Voorbeeld
+- https://dotnetfiddle.net/vO9YWt : overzicht van kleinst en grootste mogelijke waarden
+- https://msdn.microsoft.com/en-us/library/9ahet949.aspx
 
-https://dotnetfiddle.net/5up6Og
+## Voorbeelden
+
+- https://dotnetfiddle.net/wOUaq7 : alle rekenkundige operatoren bij `double`'s
+- https://dotnetfiddle.net/5up6Og : vergelijkingsoperatoren bij `double` 
 
 ## Further reading
 
@@ -43,14 +48,4 @@ Hetzelfde gebeurt in het binair talstelsel met het getal `1/10` of `0.1`.
 - http://stackoverflow.com/questions/1398753/comparing-double-values-in-c-sharp
 - http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html
 
-## Varianten
-
-Een `double` in C# komt overeen met het .NET type `System.Double`.
-
-Er bestaat ook nog `float` wat overeen komt met `System.Single`.
-
-Zie ook:
-
-- https://dotnetfiddle.net/vO9YWt
-- https://msdn.microsoft.com/en-us/library/9ahet949.aspx
 

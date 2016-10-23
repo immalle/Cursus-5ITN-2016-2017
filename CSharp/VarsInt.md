@@ -28,53 +28,9 @@ Variabelen van type `int` ondersteunen volgende rekenkundige operatoren:
 | prefix `++`  | eerst met 1 verhogen, daarna returnen | `int b = ++a;`    |
 | postfix `++` | eerst returnen, daarna met 1 verhogen | `int b = a++;`    |
 
-## Voorbeeld
+## Voorbeelden
 
-https://dotnetfiddle.net/Al9h5s
-
-## Vergelijkingsoperatoren
-
-Het resultaat van een vergelijking is een `bool` (`true` of `false`):
-
-> Stel dat we eerst 2 `int`'s `a` en `b` definiëren:
-
-```
-int a = 4;
-int b = 8;
-```
-
-| operator | omschrijving          | voorbeeld          |
-|----------|-----------------------|--------------------|
-| `>`      | groter dan            | `bool r = a > b;`  |
-| `<`      | kleiner dan           | `bool r = a < b;`  |
-| `>=`     | groter of gelijk aan  | `bool r = a >= b;` |
-| `<=`     | kleiner of gelijk aan | `bool r = a <= b;` |
-| `==`     | gelijk aan            | `bool r = a == b;` |
-| `!=`     | niet gelijk aan       | `bool r = a != b;` |
-
-> Vergelijkingsoperatoren worden b.v. gebruikt in een `if`-voorwaarde:
-
-```
-if(a > b) {
-    Console.WriteLine("{0} is groter dan {1}.", a, b);
-} else if(a < b) {
-    Console.WriteLine("{0} is kleiner dan {1}.", a, b);
-} else {
-    Console.WriteLine("{0} is gelijk aan {1}.", a, b);
-}
-```
-
-## Denkoefening
-
-Wat doet deze code?
-
-```
-bool b = 2 == 2;
-```
-
-> TIP: maak onderscheid tussen:
-> - `=`, de toekenningsoperator
-> - `==`, de vergelijkingsoperator om te controleren of 2 variabelen gelijk zijn
+https://dotnetfiddle.net/Al9h5s : alle rekenkundige operatoren bij `int`'s
 
 ## Varianten
 
@@ -89,8 +45,25 @@ Een greep uit enkele andere types voor gehele getallen:
 | ushort  | System.UInt16 | een unsigned short | 16 bits |                        0 |                     65535 |
 | short   | System.Int16  |                    | 16 bits |                   -32768 |                     32767 |
 
-Zie ook:
+> Oef:
+>
+> Schrijf een programma dat in een mooi uitgelijnde tabel (gebruik liefst
+> Format-strings) de minimum en maximum waarde van elk type afdrukt.
+>
+> Voor een overzicht van alle types, zie
+> https://msdn.microsoft.com/en-us/library/ya5y69ds.aspx
+> 
+> Je kan deze code gebruiken:
+> 
+> ```
+> string fmt = "{0,20} {1,20} {2,20}";
+> Console.WriteLine(fmt, "type", "minimum", "maximum");
+> Console.WriteLine(fmt, "sbyte", sbyte.MinValue, sbyte.MaxValue);
+> ```
+> 
+> (Alle basistypes hebben een `MinValue`- en `MaxValue`-property waarmee hun
+> kleinste (respectievelijk hoogst) mogelijke waarde mee kan opgevraagd worden.)
+>
+> OPL: https://dotnetfiddle.net/vO9YWt
 
-- https://dotnetfiddle.net/5up6Og
-- https://msdn.microsoft.com/en-us/library/exx3b86w.aspx
 

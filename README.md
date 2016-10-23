@@ -11,9 +11,16 @@
 
 ## Types van variabelen
 
-- [Variabelen](CSharp/Vars.md)
+- [Variabelen declareren](CSharp/Vars.md)
 - [Gehele getallen (int)](CSharp/VarsInt.md)
 - [Komma-getallen (double)](CSharp/VarsDouble.md)
+- [Boolean (bool)](CSharp/VarsBool.md)
+- [Karakterreeksen (string)](CSharp/VarsString.md)
+
+## Operatoren
+
+- [Toekenningsoperator](CSharp/Toekenningsoperator.md)
+- [Vergelijkingsoperatoren](CSharp/Vergelijkingsoperatoren.md)
 
 ## Objecten
 
