@@ -45,6 +45,7 @@ In het decimaal talstel vertoont de breuk `1/3` een herhalingspatroon:
 
 Hetzelfde gebeurt in het binair talstelsel met het getal `1/10` of `0.1`.
 
+- https://en.wikipedia.org/wiki/Binary_number#Fractions
 - http://stackoverflow.com/questions/1398753/comparing-double-values-in-c-sharp
 - http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html
 
