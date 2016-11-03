@@ -17,7 +17,7 @@ double x = 2.6;
 ## Rekenkundige operatoren
 
 Variabelen van type `double` ondersteunen dezelfde rekenkundige operatoren als `int`.
-Zie [VarsInt.md](Gehele getallen (int)).
+Zie [Gehele getallen (int)](VarsInt.md).
 
 ## Varianten
 

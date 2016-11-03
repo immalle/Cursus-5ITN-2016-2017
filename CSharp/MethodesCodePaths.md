@@ -38,7 +38,7 @@ uitgevoerd worden!
 
 > Uiteraard zal de functie nog niet naar behoren werken!
 
-Nu kan je de eigenlijk implementatie van `BerekenSom` doen:
+Nu kan je de eigenlijke implementatie van `BerekenSom` doen:
 
 ```
 static int BerekenSom(int a, int b)
