@@ -48,6 +48,20 @@ Objecten:
 - [Toekenningsoperator](CSharp/Toekenningsoperator.md) (:hash: 4) :pushpin:
 - [Vergelijkingsoperatoren](CSharp/Vergelijkingsoperatoren.md) (:hash: 7) :rocket:
 
+## Controlestructuur : selectie
+
+- if/then (:hash: 7) :rocket:
+- switch/case (:hash: 7) :rocket:
+
+## Controlestructuur : loops
+
+- while (:hash: 8)
+- for (:hash: 8)
+
+## Datastructuur : List
+
+- generieke lijst (:hash: 13)
+
 ## Format strings
 
 - [Eenvoudige format strings](CSharp/SimpleFormatStrings.md) (:hash: 4) :pushpin:
@@ -70,5 +84,17 @@ Objecten:
 - [Scope van methods en variabelen uit verschillende classes](CSharp/ScopeInterClass.md)
 - [Namespaces en `using`](CSharp/Namespaces.md) (:hash: 6) :rocket:
 
+## Uitgelichte classes en structs
+
+CSharp
+
+- `Random` (:hash: 6) :rocket:
+- `DateTime` (:hash: 6 (oef)) :rocket:
+
+WPF
+
+- `Window` (:hash: 6) :rocket:
+- `Slider` (:hash: 6) :rocket:
+- `DispatcherTimer` (:hash: 6) :rocket:
 
  
