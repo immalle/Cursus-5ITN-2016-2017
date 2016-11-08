@@ -29,20 +29,24 @@
 
 ## Types van variabelen
 
+Primitieve types:
+
 - [Variabelen declareren](CSharp/Vars.md) (:hash: 4) :pushpin:
 - [Gehele getallen (int)](CSharp/VarsInt.md) (:hash: 4) :pushpin:
 - [Komma-getallen (double)](CSharp/VarsDouble.md) (:hash: 4) :pushpin:
 - [Boolean (bool)](CSharp/VarsBool.md) (:hash: 7) :rocket:
+
+Objecten:
+
 - [Karakterreeksen (string)](CSharp/VarsString.md) (:hash: 16)
+- [WPF Objecten en constructors](CSharp/WPFObjects.md)] (:hash: 3) :rocket: 
+- [Objecten](CSharp/Objects.md) :construction:
+- Enums
 
 ## Operatoren
 
 - [Toekenningsoperator](CSharp/Toekenningsoperator.md) (:hash: 4) :pushpin:
 - [Vergelijkingsoperatoren](CSharp/Vergelijkingsoperatoren.md) (:hash: 7) :rocket:
-
-## Objecten
-
-- [Objecten](CSharp/Objects.md)
 
 ## Format strings
 
