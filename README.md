@@ -22,8 +22,10 @@
 - Een bestaande repository toevoegen aan SourceTree :rocket:
 - Bestaande repositories updaten (pull) :rocket:
 - Bestaande GitHub-repositories updaten (push) :rocket:
-- Markdown gebruiken op GitHub :rocket:
-- Links leggen naar andere mappen of markdown-bestanden in GitHub :rocket: 
+- Een branch maken in SourceTree :rocket:
+- Commits maken op verschillende branches met SourceTree en Visual Studio Team Explorer :rocket:
+- Titels, opsommingen en code-fragmenten in markdown opmaken op GitHub :rocket:
+- Links leggen naar andere mappen of markdown-bestanden in markdown op GitHub :rocket: 
 
 # CSharp
 
