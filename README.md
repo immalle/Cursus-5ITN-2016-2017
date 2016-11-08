@@ -68,7 +68,7 @@ Objecten:
 
 - [Scope van lokale en class-variabelen](CSharp/ScopeVars.md) (:hash: 6) :rocket:
 - [Scope van methods en variabelen uit verschillende classes](CSharp/ScopeInterClass.md)
-
+- [Namespaces en `using`](CSharp/Namespaces.md) (:hash: 6) :rocket:
 
 
  
