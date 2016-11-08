@@ -11,16 +11,16 @@
 
 ## Types van variabelen
 
-- [Variabelen declareren](CSharp/Vars.md)
-- [Gehele getallen (int)](CSharp/VarsInt.md)
-- [Komma-getallen (double)](CSharp/VarsDouble.md)
-- [Boolean (bool)](CSharp/VarsBool.md)
-- [Karakterreeksen (string)](CSharp/VarsString.md)
+- [Variabelen declareren](CSharp/Vars.md) (:hash: 4)
+- [Gehele getallen (int)](CSharp/VarsInt.md) (:hash: 4)
+- [Komma-getallen (double)](CSharp/VarsDouble.md) (:hash: 4)
+- [Boolean (bool)](CSharp/VarsBool.md) (:hash: 7)
+- [Karakterreeksen (string)](CSharp/VarsString.md) (:hash: 16)
 
 ## Operatoren
 
-- [Toekenningsoperator](CSharp/Toekenningsoperator.md)
-- [Vergelijkingsoperatoren](CSharp/Vergelijkingsoperatoren.md)
+- [Toekenningsoperator](CSharp/Toekenningsoperator.md) (:hash: 4)
+- [Vergelijkingsoperatoren](CSharp/Vergelijkingsoperatoren.md) (:hash: 7)
 
 ## Objecten
 
@@ -28,23 +28,23 @@
 
 ## Format strings
 
-- [Eenvoudige format strings](CSharp/SimpleFormatStrings.md)
+- [Eenvoudige format strings](CSharp/SimpleFormatStrings.md) (:hash: 4)
 - [Geavanceerde format strings en cultuurgebonden instellingen](CSharp/AdvancedFormatStrings.md)
 
 ## Methodes
 
-- [Methodes aanroepen](CSharp/MethodesAanroepen.md)
-- [Methodes : overloads](CSharp/MethodesOverloads.md)
-- [Methodes schrijven](CSharp/MethodesSchrijven.md)
-- [Parameters toevoegen aan methodes](CSharp/MethodesParameters.md)
-- [Overloads van zelf geschreven methods](CSharp/MethodesSchrijvenOverloads.md)
-- [Methodes met return-waarden schrijven](CSharp/MethodesReturn.md)
-- [Compiler-fouten : code-paden](CSharp/MethodesCodePaths.md)
-- [Code-paden bij void-methods](CSharp/MethodesVoid.md)
+- [Methodes aanroepen](CSharp/MethodesAanroepen.md) (:hash: 5)
+- [Methodes : overloads](CSharp/MethodesOverloads.md) (:hash: 5)
+- [Methodes schrijven](CSharp/MethodesSchrijven.md) (:hash: 5)
+- [Parameters toevoegen aan methodes](CSharp/MethodesParameters.md) (:hash: 5)
+- [Overloads van zelf geschreven methods](CSharp/MethodesSchrijvenOverloads.md) (:hash: 5)
+- [Methodes met return-waarden schrijven](CSharp/MethodesReturn.md) (:hash: 5)
+- [Compiler-fouten : code-paden](CSharp/MethodesCodePaths.md) (:hash: 5)
+- [Code-paden bij void-methods](CSharp/MethodesVoid.md) (:hash: 5)
 
 ## Scope
 
-- [Scope van lokale en class-variabelen](CSharp/ScopeVars.md)
+- [Scope van lokale en class-variabelen](CSharp/ScopeVars.md) (:hash: 6)
 - [Scope van methods en variabelen uit verschillende classes](CSharp/ScopeInterClass.md)
 
 
