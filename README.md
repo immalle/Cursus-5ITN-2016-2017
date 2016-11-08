@@ -14,6 +14,17 @@
 
 - [Cell Formatting / Celweergave](Excel/CellFormatting.md)
 
+# Git en GitHub
+
+- Een repository maken op GitHub :rocket:
+- Een GitHub-repository clonen met SourceTree :rocket:
+- Een issue oplossen op GitHub met een juiste commit-tekst :rocket:
+- Een bestaande repository toevoegen aan SourceTree :rocket:
+- Bestaande repositories updaten (pull) :rocket:
+- Bestaande GitHub-repositories updaten (push) :rocket:
+- Markdown gebruiken op GitHub :rocket:
+- Links leggen naar andere mappen of markdown-bestanden in GitHub :rocket: 
+
 # CSharp
 
 ## Types van variabelen
