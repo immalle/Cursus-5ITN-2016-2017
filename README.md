@@ -1,3 +1,10 @@
+# Legende
+
+- :hash: `x` : dit komt aan bod in hoofdstuk `x` van het handboek
+- :pushpin: : dit zou je volledig moeten beheersen
+- :rocket: : hier moet je momenteel op oefenen
+- :checkered_flag: : dit komt aan bod op de volgende test
+
 # Allerlei
 
 - [Begrippenlijst : Allerlei](Begrippenlijst/Allerlei.md)
