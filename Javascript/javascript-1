@@ -1,0 +1,33 @@
+var a = true;
+undefined
+var b = false;
+undefined
+a && a
+true
+a && b
+false
+a || b
+true
+a
+true
+b
+false
+a || b
+true
+!a
+false
+!b
+true
+3 +2
+5
+2 > 2
+false
+2 > 3
+false
+3 < 2
+false
+if(a) console.log("haha")
+haha
+undefined
+if(b) console.log("hihi")
+undefined
