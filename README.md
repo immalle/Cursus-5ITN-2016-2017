@@ -14,6 +14,20 @@
 
 - [Cell Formatting / Celweergave](Excel/CellFormatting.md)
 
+# VirtualBox
+
+- rechtse `ctrl` :rocket:
+- rechtse `ctrl`+`f` fullscreen :rocket:
+- gedeeld klemboard :rocket
+- gedeelde mappen ()
+
+# Linux
+
+- [Linux basis-commando's](Linux/BasicCmds.md) :rocket:
+- [Linux directory structuur](Linux/Directories.md) :rocket:
+- [Apt repositories en `.deb`-files](Linux/Apt.md) :rocket:
+- [PATH omgevingsvariabele](Linux/Path.md) :rocket:
+
 # Git en GitHub
 
 - Een repository maken op GitHub :rocket:
