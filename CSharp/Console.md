@@ -13,5 +13,13 @@ Er zijn 16 kleuren, opgesomd in de `ConsoleColor`-enum, b.v. `ConsoleColor.White
 
 - `Console.ResetColor()` reset de kleuren naar de default-kleuren
 
+Voorbeeld:
 
-
+```
+Console.ForegroundColor = ConsoleColor.White;
+Console.BackgroundColor = ConsoleColor.Yellow;
+Console.Clear();
+Console.WriteLine("Hello");
+Console.WriteLine();
+Console.ResetColor();
+```
