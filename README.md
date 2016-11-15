@@ -102,6 +102,7 @@ Objecten:
 
 CSharp
 
+- `Math` :pushpin:
 - `Random` (:hash: 6) :rocket:
 - `DateTime` (:hash: 6 (oef)) :rocket:
 - [Console-class : basis](CSharp/Console.md) :rocket:
