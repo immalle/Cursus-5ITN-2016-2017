@@ -16,10 +16,7 @@
 
 # VirtualBox
 
-- rechtse `ctrl` :rocket:
-- rechtse `ctrl`+`f` fullscreen :rocket:
-- gedeeld klemboard :rocket:
-- gedeelde mappen :rocket:
+- [VirtualBox basisconfiguratie](VirtualBox/Basis.md) :rocket:
 
 # Linux
 
@@ -27,6 +24,7 @@
 - [Linux directory structuur](Linux/Directories.md) :rocket:
 - [Apt repositories en `.deb`-files](Linux/Apt.md) :rocket:
 - [PATH omgevingsvariabele](Linux/Path.md) :rocket:
+- [XFCE Window Manager tips](Linux/Xfce.md) :rocket:
 
 # Git en GitHub
 
@@ -106,6 +104,7 @@ CSharp
 
 - `Random` (:hash: 6) :rocket:
 - `DateTime` (:hash: 6 (oef)) :rocket:
+- [Console-class : basis](CSharp/Console.md) :rocket:
 
 WPF
 
