@@ -18,8 +18,8 @@
 
 - rechtse `ctrl` :rocket:
 - rechtse `ctrl`+`f` fullscreen :rocket:
-- gedeeld klemboard :rocket
-- gedeelde mappen ()
+- gedeeld klemboard :rocket:
+- gedeelde mappen :rocket:
 
 # Linux
 
