@@ -114,4 +114,8 @@ WPF
 - `Slider` (:hash: 6) :rocket:
 - `DispatcherTimer` (:hash: 6) :rocket:
 
- 
+## Voorbeelden
+
+- [Het retour-geld van een drankautomaat berekenen m.b.v. een functie](CSharp/Drankautomaat.md) :pushpin:
+- Het spel Hoger/Lager (raad het random getal) :construction:
+
