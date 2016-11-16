@@ -87,6 +87,7 @@ Objecten:
 - [Methodes : overloads](CSharp/MethodesOverloads.md) (:hash: 5) :checkered_flag:
 - [Methodes schrijven](CSharp/MethodesSchrijven.md) (:hash: 5) :checkered_flag:
 - [Parameters toevoegen aan methodes](CSharp/MethodesParameters.md) (:hash: 5) :checkered_flag:
+- [Optionele parameters](CSharp/MethodesOptioneleParameters.md) (:hash: 5) :checkered_flag:
 - [Overloads van zelf geschreven methods](CSharp/MethodesSchrijvenOverloads.md) (:hash: 5) :checkered_flag:
 - [Methodes met return-waarden schrijven](CSharp/MethodesReturn.md) (:hash: 5) :checkered_flag:
 - [Compiler-fouten : code-paden](CSharp/MethodesCodePaths.md) (:hash: 5) :checkered_flag:
