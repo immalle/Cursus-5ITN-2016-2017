@@ -14,6 +14,10 @@
 
 - [Cell Formatting / Celweergave](Excel/CellFormatting.md)
 
+# Visual Studio (Code)
+
+- [Commando's in VS Code](VS/VSCodeCommands.md)
+
 # VirtualBox
 
 - [VirtualBox basisconfiguratie](VirtualBox/Basis.md) :rocket:
