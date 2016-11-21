@@ -16,7 +16,7 @@
 
 # Visual Studio (Code)
 
-- [Commando's in VS Code](VS/VSCodeCommands.md)
+- [Commando's in VS Code](VS/VSCodeCommands.md) :rocket:
 
 # VirtualBox
 
@@ -60,6 +60,7 @@ Objecten:
 - [WPF Objecten en constructors](CSharp/WPFObjects.md)] (:hash: 3) :rocket: 
 - [Objecten](CSharp/Objects.md) :construction:
 - Enums
+- Structs
 
 ## Operatoren
 
@@ -73,12 +74,12 @@ Objecten:
 
 ## Controlestructuur : loops
 
-- while (:hash: 8)
-- for (:hash: 8)
+- while (:hash: 8) :rocket:
+- for (:hash: 8) :rocket:
 
 ## Datastructuur : List
 
-- generieke lijst (:hash: 13)
+- generieke lijst (:hash: 13) :rocket:
 
 ## Format strings
 
@@ -87,15 +88,15 @@ Objecten:
 
 ## Methodes
 
-- [Methodes aanroepen](CSharp/MethodesAanroepen.md) (:hash: 5) :checkered_flag:
-- [Methodes : overloads](CSharp/MethodesOverloads.md) (:hash: 5) :checkered_flag:
-- [Methodes schrijven](CSharp/MethodesSchrijven.md) (:hash: 5) :checkered_flag:
-- [Parameters toevoegen aan methodes](CSharp/MethodesParameters.md) (:hash: 5) :checkered_flag:
-- [Optionele parameters](CSharp/MethodesOptioneleParameters.md) (:hash: 5) :checkered_flag:
-- [Overloads van zelf geschreven methods](CSharp/MethodesSchrijvenOverloads.md) (:hash: 5) :checkered_flag:
-- [Methodes met return-waarden schrijven](CSharp/MethodesReturn.md) (:hash: 5) :checkered_flag:
-- [Compiler-fouten : code-paden](CSharp/MethodesCodePaths.md) (:hash: 5) :checkered_flag:
-- [Code-paden bij void-methods](CSharp/MethodesVoid.md) (:hash: 5) :checkered_flag:
+- [Methodes aanroepen](CSharp/MethodesAanroepen.md) (:hash: 5) :pushpin:
+- [Methodes : overloads](CSharp/MethodesOverloads.md) (:hash: 5) :pushpin:
+- [Methodes schrijven](CSharp/MethodesSchrijven.md) (:hash: 5) :pushpin:
+- [Parameters toevoegen aan methodes](CSharp/MethodesParameters.md) (:hash: 5) :pushpin:
+- [Optionele parameters](CSharp/MethodesOptioneleParameters.md) (:hash: 5) :pushpin:
+- [Overloads van zelf geschreven methods](CSharp/MethodesSchrijvenOverloads.md) (:hash: 5) :pushpin:
+- [Methodes met return-waarden schrijven](CSharp/MethodesReturn.md) (:hash: 5) :pushpin:
+- [Compiler-fouten : code-paden](CSharp/MethodesCodePaths.md) (:hash: 5) :pushpin:
+- [Code-paden bij void-methods](CSharp/MethodesVoid.md) (:hash: 5) :pushpin:
 
 ## Scope
 
