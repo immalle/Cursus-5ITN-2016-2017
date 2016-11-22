@@ -69,8 +69,9 @@ Objecten:
 
 ## Controlestructuur : selectie
 
-- [if/then](CSharp/IfThenElse.md) (:hash: 7) :rocket:
-- [switch/case](CSharp/SwitchCase.md) (:hash: 7) :rocket:
+- :rocket: (:hash: 7) [if/then/else](CSharp/IfThenElse.md) 
+- :rocket: (:hash: 7) [Oefeningen if/then/else](CSharp/IfThenElseOef.md)
+- :rocket: (:hash: 7) [switch/case](CSharp/SwitchCase.md) 
 
 ## Controlestructuur : loops
 
