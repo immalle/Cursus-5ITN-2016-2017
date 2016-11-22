@@ -62,3 +62,8 @@ Schrijf de methods:
 > zodat we uiteindelijk een method `double KortsteLengte(List<double> lengtes)`
 > zouden kunnen schrijven die dan bovendien nog met een willekeurig aantal
 > lengtes kan werken i.p.v. met slechts 3.
+
+
+### Oplossingen
+
+Zie [Excel-Sheet op Office365](https://immalle-my.sharepoint.com/personal/hans_vanbroeckhoven_immalle_eu/_layouts/15/guestaccess.aspx?guestaccesstoken=ymVbNQoHsImLAz4Xzj7%2bs6eyZyT4a1kQzJIhqatmIlU%3d&docid=01e9f88487ce14436a3842ff4cf976d91&rev=1)
