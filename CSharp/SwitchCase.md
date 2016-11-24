@@ -15,10 +15,9 @@ een waardering als string teruggeeft:
 
 - < 5: onvoldoende
 - < 7: voldoende
-- < 8: goed
-- < 9: zeer goed
-- < 10: prima
-- = 10: uitmuntend
+- <= 8: goed
+- <= 9: zeer goed
+- <= 10: prima
 
 Oplossing: https://dotnetfiddle.net/8Cc8VT
 
