@@ -109,10 +109,10 @@ Objecten:
 
 CSharp
 
-- `Math` :pushpin:
-- `Random` (:hash: 6) :rocket:
-- `DateTime` (:hash: 6 (oef)) :rocket:
-- [Console-class : basis](CSharp/Console.md) :rocket:
+- :pushpin: `Math` 
+- :rocket: (:hash: 6) [`Random`-class](CSharp/Random.md)
+- :rocket: (:hash: 6 (oef)) `DateTime`  
+- :rocket: [Console-class : basis](CSharp/Console.md) 
 
 WPF
 
