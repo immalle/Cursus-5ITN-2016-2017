@@ -113,7 +113,7 @@ Objecten:
 CSharp
 
 - :pushpin: `Math`
-- :checkered_flag: (:hash: 6) [`Random`-class](CSharp/Random.md)
+- :rocket: (:hash: 6) [`Random`-class](CSharp/Random.md)
 - :rocket: (:hash: 6 (oef)) [`DateTime` en `TimeSpan`](CSharp/DateTime.md)
 - :checkered_flag: [Console-class : basis](CSharp/Console.md)
 

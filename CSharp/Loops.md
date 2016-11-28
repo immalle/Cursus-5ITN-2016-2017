@@ -127,3 +127,14 @@ for(int i = 0; i < 10; i++ ) {
   TekenRechthoek(10 + 50 * i, 20);
 }
 ```
+
+## Further reading
+
+Algoritmes voor het berekenen van de rij van Fibonacci:
+
+https://en.wikibooks.org/wiki/Algorithm_Implementation/Mathematics/Fibonacci_Number_Program
+
+Merk op:
+
+- **recursief** : m.b.v. een functie die zichzelf aanroept
+- **iteratief** : m.b.v. een iteratie dus een for- of een while-loop
