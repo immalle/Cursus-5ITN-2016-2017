@@ -12,36 +12,36 @@
 
 # Excel
 
-- [Cell Formatting / Celweergave](Excel/CellFormatting.md)
+- :pushpin: [Cell Formatting / Celweergave (b.v. percentages)](Excel/CellFormatting.md)
 
 # Visual Studio (Code)
 
-- [Commando's in VS Code](VS/VSCodeCommands.md) :rocket:
+- :rocket: [Commando's in VS Code](VS/VSCodeCommands.md) 
 
 # VirtualBox
 
-- [VirtualBox basisconfiguratie](VirtualBox/Basis.md) :rocket:
+- :rocket: [VirtualBox basisconfiguratie](VirtualBox/Basis.md)
 
 # Linux
 
-- [Linux basis-commando's](Linux/BasicCmds.md) :rocket:
-- [Linux directory structuur](Linux/Directories.md) :rocket:
-- [Apt repositories en `.deb`-files](Linux/Apt.md) :rocket:
-- [PATH omgevingsvariabele](Linux/Path.md) :rocket:
-- [XFCE Window Manager tips](Linux/Xfce.md) :rocket:
+- :rocket: [Linux basis-commando's](Linux/BasicCmds.md)
+- :rocket: [Linux directory structuur](Linux/Directories.md)
+- :rocket: [Apt repositories en `.deb`-files](Linux/Apt.md)
+- :rocket: [PATH omgevingsvariabele](Linux/Path.md)
+- :rocket: [XFCE Window Manager tips](Linux/Xfce.md)
 
 # Git en GitHub
 
-- Een repository maken op GitHub :rocket:
-- Een GitHub-repository clonen met SourceTree :rocket:
-- Een issue oplossen op GitHub met een juiste commit-tekst :rocket:
-- Een bestaande repository toevoegen aan SourceTree :rocket:
-- Bestaande repositories updaten (pull) :rocket:
-- Bestaande GitHub-repositories updaten (push) :rocket:
-- Een branch maken in SourceTree :rocket:
-- Commits maken op verschillende branches met SourceTree en Visual Studio Team Explorer :rocket:
-- Titels, opsommingen en code-fragmenten in markdown opmaken op GitHub :rocket:
-- Links leggen naar andere mappen of markdown-bestanden in markdown op GitHub :rocket: 
+- :rocket: Een repository maken op GitHub
+- :rocket: Een GitHub-repository clonen met SourceTree
+- :rocket: Een issue oplossen op GitHub met een juiste commit-tekst
+- :rocket: Een bestaande repository toevoegen aan SourceTree
+- :rocket: Bestaande repositories updaten (pull)
+- :rocket: Bestaande GitHub-repositories updaten (push)
+- :rocket: Een branch maken in SourceTree
+- :rocket: Commits maken op verschillende branches met SourceTree en Visual Studio Team Explorer
+- :rocket: Titels, opsommingen en code-fragmenten in markdown opmaken op GitHub
+- :rocket: Links leggen naar andere mappen of markdown-bestanden in markdown op GitHub
 
 # CSharp
 
@@ -49,61 +49,61 @@
 
 Primitieve types:
 
-- [Variabelen declareren](CSharp/Vars.md) (:hash: 4) :pushpin:
-- [Gehele getallen (int)](CSharp/VarsInt.md) (:hash: 4) :pushpin:
-- [Komma-getallen (double)](CSharp/VarsDouble.md) (:hash: 4) :pushpin:
-- [Boolean (bool)](CSharp/VarsBool.md) (:hash: 7) :rocket:
+- :pushpin: (:hash: 4)  [Variabelen declareren](CSharp/Vars.md)
+- :pushpin: (:hash: 4)  [Gehele getallen (int)](CSharp/VarsInt.md)
+- :pushpin: (:hash: 4)  [Komma-getallen (double)](CSharp/VarsDouble.md)
+- :pushpin: (:hash: 7) [Boolean (bool)](CSharp/VarsBool.md) 
 
 Objecten:
 
-- [Karakterreeksen (string)](CSharp/VarsString.md) (:hash: 16)
-- [WPF Objecten en constructors](CSharp/WPFObjects.md)] (:hash: 3) :rocket: 
-- [Objecten](CSharp/Objects.md) :construction:
+- (:hash: 16) [Karakterreeksen (string)](CSharp/VarsString.md) 
+- (:hash: 3) :rocket: [WPF Objecten en constructors](CSharp/WPFObjects.md)] 
+- :construction: [Objecten](CSharp/Objects.md) 
 - Enums
 - Structs
 
 ## Operatoren
 
-- [Toekenningsoperator](CSharp/Toekenningsoperator.md) (:hash: 4) :pushpin:
-- [Vergelijkingsoperatoren](CSharp/Vergelijkingsoperatoren.md) (:hash: 7) :rocket:
+- :pushpin: (:hash: 4) [Toekenningsoperator](CSharp/Toekenningsoperator.md) 
+- :pushpin: (:hash: 7) [Vergelijkingsoperatoren](CSharp/Vergelijkingsoperatoren.md) 
 
 ## Controlestructuur : selectie
 
-- :rocket: (:hash: 7) [if/then/else](CSharp/IfThenElse.md) 
-- :rocket: (:hash: 7) [Oefeningen if/then/else](CSharp/IfThenElseOef.md)
-- :rocket: (:hash: 7) [switch/case](CSharp/SwitchCase.md) 
+- :pushpin: (:hash: 7) [if/then/else](CSharp/IfThenElse.md) 
+- :pushpin: (:hash: 7) [Oefeningen if/then/else](CSharp/IfThenElseOef.md)
+- :pushpin: (:hash: 7) [switch/case](CSharp/SwitchCase.md) 
 
 ## Controlestructuur : loops
 
-- while (:hash: 8) :rocket:
-- for (:hash: 8) :rocket:
+- :checkered_flag: (:hash: 8) while 
+- :checkered_flag: (:hash: 8) for 
 
 ## Datastructuur : List
 
-- generieke lijst (:hash: 13) :rocket:
+- :checkered_flag: (:hash: 13) generieke lijst 
 
 ## Format strings
 
-- [Eenvoudige format strings](CSharp/SimpleFormatStrings.md) (:hash: 4) :pushpin:
+- :pushpin: (:hash: 4) [Eenvoudige format strings](CSharp/SimpleFormatStrings.md) 
 - [Geavanceerde format strings en cultuurgebonden instellingen](CSharp/AdvancedFormatStrings.md)
 
 ## Methodes
 
-- [Methodes aanroepen](CSharp/MethodesAanroepen.md) (:hash: 5) :pushpin:
-- [Methodes : overloads](CSharp/MethodesOverloads.md) (:hash: 5) :pushpin:
-- [Methodes schrijven](CSharp/MethodesSchrijven.md) (:hash: 5) :pushpin:
-- [Parameters toevoegen aan methodes](CSharp/MethodesParameters.md) (:hash: 5) :pushpin:
-- [Optionele parameters](CSharp/MethodesOptioneleParameters.md) (:hash: 5) :pushpin:
-- [Overloads van zelf geschreven methods](CSharp/MethodesSchrijvenOverloads.md) (:hash: 5) :pushpin:
-- [Methodes met return-waarden schrijven](CSharp/MethodesReturn.md) (:hash: 5) :pushpin:
-- [Compiler-fouten : code-paden](CSharp/MethodesCodePaths.md) (:hash: 5) :pushpin:
-- [Code-paden bij void-methods](CSharp/MethodesVoid.md) (:hash: 5) :pushpin:
+- :pushpin: (:hash: 5) [Methodes aanroepen](CSharp/MethodesAanroepen.md)
+- :pushpin: (:hash: 5) [Methodes : overloads](CSharp/MethodesOverloads.md)
+- :pushpin: (:hash: 5) [Methodes schrijven](CSharp/MethodesSchrijven.md)
+- :pushpin: (:hash: 5) [Parameters toevoegen aan methodes](CSharp/MethodesParameters.md)
+- :pushpin: (:hash: 5) [Optionele parameters](CSharp/MethodesOptioneleParameters.md)
+- :pushpin: (:hash: 5) [Overloads van zelf geschreven methods](CSharp/MethodesSchrijvenOverloads.md) 
+- :pushpin: (:hash: 5) [Methodes met return-waarden schrijven](CSharp/MethodesReturn.md) 
+- :pushpin: (:hash: 5) [Compiler-fouten : code-paden](CSharp/MethodesCodePaths.md) 
+- :pushpin: (:hash: 5) [Code-paden bij void-methods](CSharp/MethodesVoid.md) 
 
 ## Scope
 
-- [Scope van lokale en class-variabelen](CSharp/ScopeVars.md) (:hash: 6) :rocket:
+- :rocket: (:hash: 6) [Scope van lokale en class-variabelen](CSharp/ScopeVars.md) 
 - [Scope van methods en variabelen uit verschillende classes](CSharp/ScopeInterClass.md)
-- [Namespaces en `using`](CSharp/Namespaces.md) (:hash: 6) :rocket:
+- :rocket: (:hash: 6) [Namespaces en `using`](CSharp/Namespaces.md) 
 
 ## Uitgelichte classes en structs
 
@@ -116,12 +116,13 @@ CSharp
 
 WPF
 
-- `Window` (:hash: 6) :rocket:
-- `Slider` (:hash: 6) :rocket:
-- `DispatcherTimer` (:hash: 6) :rocket:
+- :rocket: (:hash: 6) `Window` 
+- :rocket: (:hash: 6) `Slider` 
+- :rocket: (:hash: 6) `DispatcherTimer`
+- :rocket: (:hash: 7) `CheckBox`
+- :rocket: (:hash: 7) `RadioButton`
 
 ## Voorbeelden
 
-- [Het retour-geld van een drankautomaat berekenen m.b.v. een functie](CSharp/Drankautomaat.md) :pushpin:
-- Het spel Hoger/Lager (raad het random getal) :construction:
-
+- :pushpin: [Het retour-geld van een drankautomaat berekenen m.b.v. een functie](CSharp/Drankautomaat.md) 
+- :rocket: Het spel Hoger/Lager (raad het random getal) 
