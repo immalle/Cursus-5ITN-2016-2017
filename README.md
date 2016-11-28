@@ -54,7 +54,6 @@ Primitieve types:
 - :pushpin: (:hash: 4)  [Komma-getallen (`double`)](CSharp/VarsDouble.md)
 - :pushpin: (:hash: 7) [Boolean (`bool`)](CSharp/VarsBool.md)
 - :rocket: Karakters (`char`)
-- :rocket: Strings (`string`)
 
 Objecten:
 
@@ -63,6 +62,7 @@ Objecten:
 - :construction: [Objecten](CSharp/Objects.md) 
 - Enums
 - Structs
+- :rocket: Strings (:hash: 16) (`string`)
 
 ## Operatoren
 
@@ -77,12 +77,13 @@ Objecten:
 
 ## Controlestructuur : loops
 
-- :checkered_flag: (:hash: 8) while 
-- :checkered_flag: (:hash: 8) for 
+- :checkered_flag: (:hash: 8) [`while`- en `for`-loops](CSharp/Loops.md)
 
-## Datastructuur : List
+## Datastructuren
 
-- :checkered_flag: (:hash: 13) generieke lijst 
+- :rocket: (:hash: 13) generieke lijst `List<T>`
+- (:hash: 14) arrays
+- (:hash: 15) 2D-arrays
 
 ## Format strings
 
@@ -127,4 +128,4 @@ WPF
 ## Voorbeelden
 
 - :pushpin: [Het retour-geld van een drankautomaat berekenen m.b.v. een functie](CSharp/Drankautomaat.md) 
-- :rocket: Het spel Hoger/Lager (raad het random getal) 
+- :rocket: Het spel Hoger/Lager (raad het random getal)
