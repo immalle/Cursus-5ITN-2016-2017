@@ -50,14 +50,16 @@
 Primitieve types:
 
 - :pushpin: (:hash: 4)  [Variabelen declareren](CSharp/Vars.md)
-- :pushpin: (:hash: 4)  [Gehele getallen (int)](CSharp/VarsInt.md)
-- :pushpin: (:hash: 4)  [Komma-getallen (double)](CSharp/VarsDouble.md)
-- :pushpin: (:hash: 7) [Boolean (bool)](CSharp/VarsBool.md) 
+- :pushpin: (:hash: 4)  [Gehele getallen (`int`)](CSharp/VarsInt.md)
+- :pushpin: (:hash: 4)  [Komma-getallen (`double`)](CSharp/VarsDouble.md)
+- :pushpin: (:hash: 7) [Boolean (`bool`)](CSharp/VarsBool.md)
+- :rocket: Karakters (`char`)
+- :rocket: Strings (`string`)
 
 Objecten:
 
 - (:hash: 16) [Karakterreeksen (string)](CSharp/VarsString.md) 
-- (:hash: 3) :rocket: [WPF Objecten en constructors](CSharp/WPFObjects.md)] 
+- :rocket: (:hash: 3) [WPF Objecten en constructors](CSharp/WPFObjects.md)]
 - :construction: [Objecten](CSharp/Objects.md) 
 - Enums
 - Structs
@@ -109,10 +111,10 @@ Objecten:
 
 CSharp
 
-- :pushpin: `Math` 
-- :rocket: (:hash: 6) [`Random`-class](CSharp/Random.md)
-- :rocket: (:hash: 6 (oef)) `DateTime`  
-- :rocket: [Console-class : basis](CSharp/Console.md) 
+- :pushpin: `Math`
+- :checkered_flag: (:hash: 6) [`Random`-class](CSharp/Random.md)
+- :rocket: (:hash: 6 (oef)) [`DateTime` en `TimeSpan`](CSharp/DateTime.md)
+- :checkered_flag: [Console-class : basis](CSharp/Console.md)
 
 WPF
 
