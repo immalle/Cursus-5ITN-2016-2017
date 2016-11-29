@@ -1,7 +1,8 @@
 # Strings
 
 Een string is een aaneenschakeling van karakters (van type `char`).
-(Zie [`char`](VarsChar.md))
+De **index-operator** `[]` werkt daarom ook op strings!
+(Zie [`char`](VarsChar.md) voor meer informatie.)
 
 Je kan zowel `string` (met kleine letter) als `String` met grote letter 
 gebruiken.

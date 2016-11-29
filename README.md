@@ -53,7 +53,7 @@ Primitieve types:
 - :pushpin: (:hash: 4)  [Gehele getallen (`int`)](CSharp/VarsInt.md)
 - :pushpin: (:hash: 4)  [Komma-getallen (`double`)](CSharp/VarsDouble.md)
 - :pushpin: (:hash: 7) [Boolean (`bool`)](CSharp/VarsBool.md)
-- :rocket: (:hash: 16) [Karaketers (`char`)](CSharp/VarsChar.md)
+- :rocket: (:hash: 16) [Karakters (`char`)](CSharp/VarsChar.md)
 
 Objecten:
 
