@@ -53,16 +53,24 @@ Primitieve types:
 - :pushpin: (:hash: 4)  [Gehele getallen (`int`)](CSharp/VarsInt.md)
 - :pushpin: (:hash: 4)  [Komma-getallen (`double`)](CSharp/VarsDouble.md)
 - :pushpin: (:hash: 7) [Boolean (`bool`)](CSharp/VarsBool.md)
-- :rocket: Karakters (`char`)
+- :rocket: (:hash: 16) [Karaketers (`char`)](CSharp/VarsChar.md)
 
 Objecten:
 
-- (:hash: 16) [Karakterreeksen (string)](CSharp/VarsString.md) 
-- :rocket: (:hash: 3) [WPF Objecten en constructors](CSharp/WPFObjects.md)]
+- :rocket: (:hash: 16) [Karakterreeksen (`string`)](CSharp/VarsString.md) 
+- :rocket: (:hash: 3) [WPF Objecten en constructors](CSharp/WPFObjects.md)
 - :construction: [Objecten](CSharp/Objects.md) 
 - Enums
-- Structs
-- :rocket: Strings (:hash: 16) (`string`)
+- Structs (*Value-types*)
+- Classes (*Reference-types*)
+	- (:hash: 10) classes maken
+	- (:hash: 11) overerving (inheritance)
+	- abstracte classes
+	- (:hash: 23) interfaces
+
+Overige:
+
+- Converteren van types (**casten**) (b.v. `Convert.ToChar(...)` of `(char)`)
 
 ## Operatoren
 
@@ -77,13 +85,18 @@ Objecten:
 
 ## Controlestructuur : loops
 
-- :checkered_flag: (:hash: 8) [`while`- en `for`-loops](CSharp/Loops.md)
+- :pushpin: (:hash: 8) [`while`- en `for`-loops](CSharp/Loops.md)
+
+## Controlestructuur : exceptions
+
+- (:hash: 17) Exceptions
 
 ## Datastructuren
 
 - :rocket: (:hash: 13) generieke lijst `List<T>`
 - (:hash: 14) arrays
 - (:hash: 15) 2D-arrays
+- Dictionary / HashMap / Key-Value-structuur
 
 ## Format strings
 
@@ -115,10 +128,15 @@ CSharp
 - :pushpin: `Math`
 - :rocket: (:hash: 6) [`Random`-class](CSharp/Random.md)
 - :rocket: (:hash: 6 (oef)) [`DateTime` en `TimeSpan`](CSharp/DateTime.md)
-- :checkered_flag: [Console-class : basis](CSharp/Console.md)
+- :pushpin: [Console-class : basis](CSharp/Console.md)
+- Console-class : cursor verplaatsen
+- Console-class : `Console.ReadKey()` en de `ConsoleKeyInfo`-struct
+- Classes i.v.m. bestanden en directories uit `System.IO` (`File`, `Directory`, ...)
+
 
 WPF
 
+- :rocket: (:hash: 2, 18) `MessageBox`
 - :rocket: (:hash: 6) `Window` 
 - :rocket: (:hash: 6) `Slider` 
 - :rocket: (:hash: 6) `DispatcherTimer`
