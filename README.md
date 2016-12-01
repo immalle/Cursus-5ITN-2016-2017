@@ -93,7 +93,7 @@ Overige:
 
 ## Datastructuren
 
-- :rocket: (:hash: 13) generieke lijst `List<T>`
+- :rocket: (:hash: 13) [Generieke lijst `List<T>`](CSharp/DatastructList.md)
 - (:hash: 14) arrays
 - (:hash: 15) 2D-arrays
 - Dictionary / HashMap / Key-Value-structuur
