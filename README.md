@@ -125,7 +125,7 @@ Overige:
 
 CSharp
 
-- :pushpin: `Math`
+- :pushpin: [Math functies](CSharp/MethodesAanroepen.md#math-functies)
 - :rocket: (:hash: 6) [`Random`-class](CSharp/Random.md)
 - :rocket: (:hash: 6 (oef)) [`DateTime` en `TimeSpan`](CSharp/DateTime.md)
 - :pushpin: [Console-class : basis](CSharp/Console.md)
