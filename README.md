@@ -4,6 +4,7 @@
 - :pushpin: : dit zou je volledig moeten beheersen
 - :rocket: : hier moet je momenteel op oefenen
 - :checkered_flag: : dit komt aan bod op de volgende test
+- :bangbang: : nog niet gevraagd op een test maar kan wel op het PW voorkomen
 
 # Allerlei
 
@@ -53,12 +54,12 @@ Primitieve types:
 - :pushpin: (:hash: 4)  [Gehele getallen (`int`)](CSharp/VarsInt.md)
 - :pushpin: (:hash: 4)  [Komma-getallen (`double`)](CSharp/VarsDouble.md)
 - :pushpin: (:hash: 7) [Boolean (`bool`)](CSharp/VarsBool.md)
-- :rocket: (:hash: 16) [Karakters (`char`)](CSharp/VarsChar.md)
+- :bangbang: (:hash: 16) [Karakters (`char`)](CSharp/VarsChar.md)
 
 Objecten:
 
-- :rocket: (:hash: 16) [Karakterreeksen (`string`)](CSharp/VarsString.md) 
-- :rocket: (:hash: 3) [WPF Objecten en constructors](CSharp/WPFObjects.md)
+- :bangbang: (:hash: 16) [Karakterreeksen (`string`)](CSharp/VarsString.md) 
+- :pushpin: (:hash: 3) [WPF Objecten en constructors](CSharp/WPFObjects.md)
 - :construction: [Objecten](CSharp/Objects.md) 
 - Enums
 - Structs (*Value-types*)
@@ -70,7 +71,7 @@ Objecten:
 
 Overige:
 
-- Converteren van types (**casten**) (b.v. `Convert.ToChar(...)` of `(char)`)
+- :rocket: Converteren van types (**casten**) (b.v. `Convert.ToChar(...)` of `(char)`)
 
 ## Operatoren
 
@@ -93,7 +94,7 @@ Overige:
 
 ## Datastructuren
 
-- :rocket: (:hash: 13) [Generieke lijst `List<T>`](CSharp/DatastructList.md)
+- :bangbang: (:hash: 13) [Generieke lijst `List<T>`](CSharp/DatastructList.md)
 - (:hash: 14) arrays
 - (:hash: 15) 2D-arrays
 - Dictionary / HashMap / Key-Value-structuur
@@ -101,7 +102,7 @@ Overige:
 ## Format strings
 
 - :pushpin: (:hash: 4) [Eenvoudige format strings](CSharp/SimpleFormatStrings.md) 
-- [Geavanceerde format strings en cultuurgebonden instellingen](CSharp/AdvancedFormatStrings.md)
+- :bangbang: [Geavanceerde format strings en cultuurgebonden instellingen](CSharp/AdvancedFormatStrings.md)
 
 ## Methodes
 
@@ -117,17 +118,17 @@ Overige:
 
 ## Scope
 
-- :rocket: (:hash: 6) [Scope van lokale en class-variabelen](CSharp/ScopeVars.md) 
+- :pushpin: (:hash: 6) [Scope van lokale en class-variabelen](CSharp/ScopeVars.md) 
 - [Scope van methods en variabelen uit verschillende classes](CSharp/ScopeInterClass.md)
-- :rocket: (:hash: 6) [Namespaces en `using`](CSharp/Namespaces.md) 
+- :pushpin: (:hash: 6) [Namespaces en `using`](CSharp/Namespaces.md) 
 
 ## Uitgelichte classes en structs
 
 CSharp
 
 - :pushpin: [Math functies](CSharp/MethodesAanroepen.md#math-functies)
-- :rocket: (:hash: 6) [`Random`-class](CSharp/Random.md)
-- :rocket: (:hash: 6 (oef)) [`DateTime` en `TimeSpan`](CSharp/DateTime.md)
+- :bangbang: (:hash: 6) [`Random`-class](CSharp/Random.md)
+- :bangbang: (:hash: 6 (oef)) [`DateTime` en `TimeSpan`](CSharp/DateTime.md)
 - :pushpin: [Console-class : basis](CSharp/Console.md)
 - Console-class : cursor verplaatsen
 - Console-class : `Console.ReadKey()` en de `ConsoleKeyInfo`-struct
@@ -136,16 +137,16 @@ CSharp
 
 WPF
 
-- :rocket: (:hash: 2, 18) `MessageBox`
-- :rocket: (:hash: 6) `Window` 
-- :rocket: (:hash: 6) `Slider` 
-- :rocket: (:hash: 6) `DispatcherTimer`
-- :rocket: (:hash: 7) `CheckBox`
-- :rocket: (:hash: 7) `RadioButton`
+- :bangbang: (:hash: 2, 18) `MessageBox`
+- :bangbang: (:hash: 6) `Window` 
+- :bangbang: (:hash: 6) `Slider` 
+- :bangbang: (:hash: 6) `DispatcherTimer`
+- :bangbang: (:hash: 7) `CheckBox`
+- :bangbang: (:hash: 7) `RadioButton`
+- :bangbang: Panels: `Canvas`, `WrapPanel`, `StackPanel`, `GridPanel` (http://wpftutorial.net/Layout.html)
 
 ## Voorbeelden
 
 - :pushpin: [Het retour-geld van een drankautomaat berekenen m.b.v. een functie](CSharp/Drankautomaat.md) 
-- :rocket: Het spel Hoger/Lager (raad het random getal)
+- :pushpin: Het spel Hoger/Lager (raad het random getal)
 - :bangbang: [Tijdsmetingen / profilen van algoritmen](CSharp/Tijdsmeting.md)
-
