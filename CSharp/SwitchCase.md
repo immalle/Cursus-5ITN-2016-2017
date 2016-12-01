@@ -3,7 +3,12 @@
 Switch/case statements kunnen een lange lijst van 
 `if`/`else if`/`else if`/`else` vervangen door een beter leesbare variant.
 
-Let wel op dat er enkel kan gewerkt worden met gelijkheid.
+Er vallen enkele dingen op te merken aan een `switch`/`case`:
+
+- je kan een `default`-case hebben (vergelijkbaar met `else`)
+- je kan verschillende cases laten *doorvallen* (zie voorbeeld)
+- je kan enkele werken met gelijkheid (`==`) niet met `>`, `<`, ...
+
 Bekijk de volgende oefening ter verduidelijking.
 
 # Oefening
@@ -20,5 +25,3 @@ een waardering als string teruggeeft:
 - <= 10: prima
 
 Oplossing: https://dotnetfiddle.net/8Cc8VT
-
-
