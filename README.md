@@ -147,3 +147,5 @@ WPF
 
 - :pushpin: [Het retour-geld van een drankautomaat berekenen m.b.v. een functie](CSharp/Drankautomaat.md) 
 - :rocket: Het spel Hoger/Lager (raad het random getal)
+- :bangbang: [Tijdsmetingen / profilen van algoritmen](CSharp/Tijdsmeting.md)
+
