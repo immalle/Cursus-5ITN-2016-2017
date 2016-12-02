@@ -24,7 +24,7 @@ sudo apt-get update
 
 # apt-cache
 
-De lokale lijst met beschikbare packages kan men de *local package cache* (o.i.d.) noemen.
+De lokale lijst met beschikbare packages noemt men wel eens de **local package cache**.
 
 Zoeken of er een pakketje met `tree` in de naam aanwezig is, kan met:
 
@@ -32,7 +32,7 @@ Zoeken of er een pakketje met `tree` in de naam aanwezig is, kan met:
 apt-cache search tree
 ```
 
-> Merk op dat je om te zoeken in de local package cache je geen `sudo`-rechten nodig hebt.
+> Merk op dat je om te zoeken in de **local package cache** je geen `sudo`-rechten nodig hebt.
 
 # dpkg
 
@@ -90,9 +90,9 @@ yum install tree
 
 ## TGZ
 
-Soms worden in een `.tar.gz` (of gelijkaardig) bestand *binaries* gedistribueerd. Vaak wordt dan ook nog aangeduid voor welke processor en OS de binaries gebouwd zijn (`x84, `linux`, `darwin`, ...)
+Soms worden in een `.tar.gz` (of gelijkaardig) bestand *binaries* gedistribueerd. Vaak wordt dan ook nog aangeduid voor welke processor en OS de binaries gebouwd zijn (`x86`, `linux`, `darwin`, ...)
 
-> Deze binaries kunnen dan manueel uitgepakt en ergens geplaatst worden, b.v. in `/usr/local`. Zie ook [Linux directory-structuur](Linux/Directories.md).
+> Deze binaries kunnen dan manueel uitgepakt en ergens geplaatst worden, b.v. in `/usr/local`. Zie ook [Linux directory-structuur](Directories.md).
 
 Een `.src.tar.gz` bevat de source-code.
 
