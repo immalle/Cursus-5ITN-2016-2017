@@ -11,6 +11,6 @@ Dat is handig om VirtualBox onze hardware niet te zwaar te belasten.
 
 ## Tips
 
-- `ALT` ingedrukt houden tijdens het slepen met de linkermuisknop : venster verplaatsen
-- `ALT` ingedrukt houden tijdens het slepen met de rechtermuisknop : grootte van het venster aanpassen (afhankelijk van waar je klikt)
+- `ALT` ingedrukt houden tijdens het slepen met de **linker**muisknop : venster verplaatsen
+- `ALT` ingedrukt houden tijdens het slepen met de **rechter**muisknop : grootte van het venster aanpassen (afhankelijk van waar je klikt)
 
