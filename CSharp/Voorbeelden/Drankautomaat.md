@@ -81,7 +81,7 @@ Voorbeeld 1:
 
 Voorbeeld 2:
 
-- we werpen `2.00` input
+- we werpen `2.00` euro in
 - de kostprijs is `0.43` (om het interessant te maken)
 - we moeten dus in totaal `1.57` teruggeven
 - op welke manier kunnen we `1.57` het best omzetten in zo groot mogelijke
@@ -104,7 +104,7 @@ muntstukken:
 - `aantal1Cent` : `0`
 
 > Sommige kassiers werken omgekeerd: ze vertrekken van de `kostprijs` en tellen
-> muntstukken bij, tot ze aan de `inworp` zijn aanbelandt.
+> muntstukken bij, tot ze aan de `inworp` zijn aanbeland.
 
 ### Een oplossing met een while-loop
 
