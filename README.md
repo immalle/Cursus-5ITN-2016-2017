@@ -157,5 +157,4 @@ WPF
 - :bangbang: [Dagen, uren, minuten en seconden omzetten naar seconden](CSharp/Voorbeelden/NaarSeconden.md)
 - :pushpin: [Het spel Hoger/Lager (raad het random getal)](CSharp/Voorbeelden/HogerLager.md)
 - :bangbang: [Tijdsmetingen / profilen van algoritmen](CSharp/Voorbeelden/Tijdsmeting.md)
-
-- :pushpin: [Het retour-geld van een drankautomaat berekenen m.b.v. een functie](CSharp/Drankautomaat.md) 
+- :construction: [Het retour-geld van een drankautomaat berekenen m.b.v. een functie](CSharp/Drankautomaat.md) 
