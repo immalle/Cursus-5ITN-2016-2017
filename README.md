@@ -134,7 +134,6 @@ CSharp
 - Console-class : `Console.ReadKey()` en de `ConsoleKeyInfo`-struct
 - Classes i.v.m. bestanden en directories uit `System.IO` (`File`, `Directory`, ...)
 
-
 WPF
 
 - :bangbang: (:hash: 2, 18) `MessageBox`
@@ -145,8 +144,18 @@ WPF
 - :bangbang: (:hash: 7) `RadioButton`
 - :bangbang: Panels: `Canvas`, `WrapPanel`, `StackPanel`, `GridPanel` (http://wpftutorial.net/Layout.html)
 
-## Voorbeelden
+## Code lezen
+
+- :bangbang: [Waarom en hoe code lezen?](CSharp/LezenIntro.md)
+- :bangbang: [Lezen van expressies met variabelen](CSharp/LezenVars.md)
+- :bangbang: [Lezen van method-aanroepen en -definities](CSharp/LezenMethods.md)
+- :bangbang: [Lezen van object members (constructors, methods, properties)](CSharp/LezenObjects.md)
+- Lezen van classes
+
+## Voorbeelden van algoritmen
+
+- :bangbang: [Dagen, uren, minuten en seconden omzetten naar seconden](CSharp/Voorbeelden/NaarSeconden.md)
+- :pushpin: [Het spel Hoger/Lager (raad het random getal)](CSharp/Voorbeelden/HogerLager.md)
+- :bangbang: [Tijdsmetingen / profilen van algoritmen](CSharp/Voorbeelden/Tijdsmeting.md)
 
 - :pushpin: [Het retour-geld van een drankautomaat berekenen m.b.v. een functie](CSharp/Drankautomaat.md) 
-- :pushpin: Het spel Hoger/Lager (raad het random getal)
-- :bangbang: [Tijdsmetingen / profilen van algoritmen](CSharp/Tijdsmeting.md)
