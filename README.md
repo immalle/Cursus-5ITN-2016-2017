@@ -158,6 +158,7 @@ WPF
 - :pushpin: [Het retour-geld van een drankautomaat berekenen](CSharp/Voorbeelden/Drankautomaat.md)
 - :pushpin: [Het spel Hoger/Lager (raad het random getal)](CSharp/Voorbeelden/HogerLager.md)
 - :bangbang: [Tijdsmetingen / profilen van algoritmen](CSharp/Voorbeelden/Tijdsmeting.md)
+- [Animated GIF omzetten naar ASCII en afbeelden op console](CSharp/Voorbeelden/AnimatedASCIIArt.md)
 
 ## Oefeningen (algoritmen)
 
