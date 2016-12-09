@@ -158,3 +158,9 @@ WPF
 - :pushpin: [Het retour-geld van een drankautomaat berekenen](CSharp/Voorbeelden/Drankautomaat.md)
 - :pushpin: [Het spel Hoger/Lager (raad het random getal)](CSharp/Voorbeelden/HogerLager.md)
 - :bangbang: [Tijdsmetingen / profilen van algoritmen](CSharp/Voorbeelden/Tijdsmeting.md)
+
+## Oefeningen (algoritmen)
+
+- binary AND/OR/XOR
+- rotate text string
+
