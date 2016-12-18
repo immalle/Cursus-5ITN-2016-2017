@@ -155,6 +155,7 @@ WPF
 ## Voorbeelden van algoritmen
 
 - :bangbang: [Dagen, uren, minuten en seconden omzetten naar seconden](CSharp/Voorbeelden/NaarSeconden.md)
+- [Seconden omzetten naar uren, minuten en seconden](CSharp/Voorbeelden/NaarUrenMinutenSeconden.md)
 - :pushpin: [Het retour-geld van een drankautomaat berekenen](CSharp/Voorbeelden/Drankautomaat.md)
 - :pushpin: [Het spel Hoger/Lager (raad het random getal)](CSharp/Voorbeelden/HogerLager.md)
 - :bangbang: [Tijdsmetingen / profilen van algoritmen](CSharp/Voorbeelden/Tijdsmeting.md)
