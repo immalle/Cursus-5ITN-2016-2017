@@ -15,13 +15,17 @@
 
 - :pushpin: [Cell Formatting / Celweergave (b.v. percentages)](Excel/CellFormatting.md)
 
-# Visual Studio (Code)
-
-- :rocket: [Commando's in VS Code](VS/VSCodeCommands.md) 
-
-# VirtualBox
+# Visual Studio Code en .Net Core in Xubuntu via VirtualBox
 
 - :rocket: [VirtualBox basisconfiguratie](VirtualBox/Basis.md)
+- :rocket: [Commando's in VS Code](VS/VSCodeCommands.md)
+
+zie ook:
+
+- https://gitter.im/5ITN-immalle/Chatbox/archives/2016/11/14
+- https://www.microsoft.com/net/core : .Net Core
+- https://code.visualstudio.com/ : Visual Studio Code
+- http://lmgtfy.com/?q=virtualbox+tutorial
 
 # Linux
 
