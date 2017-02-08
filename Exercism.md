@@ -2,7 +2,7 @@
 
 Alle info is ook op de site van Exercism te vinden.
 
-Enkel om de tests te runnen, moet je weten hoe je de NUnit-dependency kan installeren en gebruien.
+Enkel om de tests te runnen, moet je weten hoe je de NUnit-dependency kan installeren en gebruiken.
 
 Toch volgt hier wat extra uitleg.
 
@@ -29,12 +29,13 @@ Toch volgt hier wat extra uitleg.
 	- configureer je eigen key!
 	- controleer met `exercism configure`
 
-### gebruik
+### Gebruik
 
 - fetch een oefening
 - druk op de *show all files*-button in de solution explorer
 - rechts-klik op de map v.d. oef. om te includen in het project
 - kies Run All Tests (`CTRL-R A`)
+- maak eventueel een commit (je zit wel in de clone van de exercism repo te werken)
 - submit een oefening
 
 ## Vanuit Linux met dotnet core
@@ -51,11 +52,14 @@ Toch volgt hier wat extra uitleg.
 	- vergeet je persoonlijke exercism key niet te configureren!
 	- controleer je instellingen met `exercism configure`
 
-### gebruik
+### Gebruik
+
+> Dit is EEN mogelijke manier!
 
 - fetch een oef.
 - ga naar de directory en maak een nieuw dotnet core project met `dotnet new`
 - bewerk `project.json` zodat de NUnit-dependency geconfigureerd is 
+  (of kopieer de file uit een voorgaand project)
 
 ```
 {
@@ -76,4 +80,3 @@ Toch volgt hier wat extra uitleg.
 
 - voer de tests uit `dotnet test`
 - submit een oef.
-
