@@ -170,3 +170,10 @@ WPF
 - binary AND/OR/XOR
 - rotate text string
 
+## Online Oefeningen
+
+- Project Euler
+- Rosalind
+- Exercism ([Instructies](Exercism.md))
+- CodinGame
+- ...
