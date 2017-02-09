@@ -12,7 +12,7 @@ Toch volgt hier wat extra uitleg.
 
 - Installeer chocolatey
 	- vanuit Powershell
-	- `Set-ExecutionPolicy -ExecutionPolicy Unrestricted`
+	- `Set-ExecutionPolicy -ExecutionPolicy Unrestricted` of zie *Windows Instellingen* -> *Voor ontwikkelaars*
 	- zie https://chocolatey.org/install
 - Installeer de exercism CLI-tool
 	- zie http://exercism.io/cli/windows
