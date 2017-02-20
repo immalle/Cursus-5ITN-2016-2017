@@ -35,6 +35,15 @@ zie ook:
 - :rocket: [PATH omgevingsvariabele](Linux/Path.md)
 - :rocket: [XFCE Window Manager tips](Linux/Xfce.md)
 
+# Powershell
+
+- :rocket: [Installatie en controleren van de versie](Powershell/InstallatieVersie.md)
+- :rocket: [De Powershell ISE werkomgeving](Powershell/Werkomgeving.md)
+- :rocket: [Enkele commando's](Powershell/EnkeleCommandos.md)
+- :rocket: [Parameters meegeven](Powershell/Parameters.md)
+- :rocket: [Commando's combineren met `|` en de OOP-Shell](Powershell/Commandos.md)
+- :rocket: [Variabelen](Powershell/Variabelen.md)
+
 # Git en GitHub
 
 - :rocket: Een repository maken op GitHub
@@ -174,3 +183,10 @@ WPF
 - binary AND/OR/XOR
 - rotate text string
 
+## Online Oefeningen
+
+- Project Euler
+- Rosalind
+- Exercism ([Instructies](Exercism.md))
+- CodinGame
+- ...
