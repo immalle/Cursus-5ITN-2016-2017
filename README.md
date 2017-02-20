@@ -120,6 +120,10 @@ Overige:
 - :pushpin: (:hash: 5) [Compiler-fouten : code-paden](CSharp/MethodesCodePaths.md) 
 - :pushpin: (:hash: 5) [Code-paden bij void-methods](CSharp/MethodesVoid.md) 
 
+## Classes
+
+- :pushpin: (:hash: 10) [Oef. hst. 10](CSharp/OefHst10.md)
+
 ## Scope
 
 - :pushpin: (:hash: 6) [Scope van lokale en class-variabelen](CSharp/ScopeVars.md) 
