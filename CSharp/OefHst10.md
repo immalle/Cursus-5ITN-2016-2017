@@ -19,6 +19,13 @@ Schrijf een class `Puntenteller` :
 - met een method `Verlaag()` om de punten met 1 te verlagen
 - een property `int Score` om de huidige score te verkrijgen
 
+EXTRA:
+
+Schrijf een dobbelspel met b.v. 2 spelers en 1 dobbelsteen.
+Diegene die de hoogste waarde dobbelt (som v.d. 2 dobbelstenen), scoort een punt.
+De punten worden opgeslagen in de Puntentellers.
+
+
 ## 10.2
 
 *Display van een versterker*
