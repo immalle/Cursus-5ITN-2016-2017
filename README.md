@@ -160,6 +160,7 @@ WPF
 - :bangbang: (:hash: 7) `CheckBox`
 - :bangbang: (:hash: 7) `RadioButton`
 - :bangbang: Panels: `Canvas`, `WrapPanel`, `StackPanel`, `GridPanel` (http://wpftutorial.net/Layout.html)
+- :rocket: (:hash: 13) [`ListBox`](WPF/ListBox.md)
 
 ## Code lezen
 
