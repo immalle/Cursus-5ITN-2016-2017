@@ -6,6 +6,7 @@
 - (:hash: 13.5) Index van items
 - (:hash: 13.6) Items verwijderen
 - (:hash: 13.7) Items tussenvoegen
+- (:hash: 13.10) Itereren over items
 
 ## Voorbeelden
 
@@ -14,4 +15,6 @@ In de praktijk zouden we meestal een `List<...>` of `Dictionary<...>` gebruiken 
 
 - (:hash: 13.8) ListBox als opzoektabel 
 - (:hash: 13.9) Rekenen
+- (:hash: 13.11) Een algoritme om te zoeken
+
 
