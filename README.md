@@ -181,6 +181,7 @@ WPF
 
 ## Oefeningen (algoritmen)
 
+- :rocket: [C# Interactive](CSharp/CSharpInteractive.md)
 - binary AND/OR/XOR
 - rotate text string
 
