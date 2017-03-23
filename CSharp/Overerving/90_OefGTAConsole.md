@@ -5,7 +5,7 @@ Doel: een Console-versie van GTA waarin Voertuigen voorkomen.
 
 Het eindresultaat zou er zo uit kunnen zien:
 
-![GTAConsole UML Class Diagram](GTAConsole/img/GTAConsole.draw.io.png)
+![GTAConsole UML Class Diagram](img/GTAConsole.draw.io.png)
 
 Gebruik de `Console2`-class om gekleurde tekst af te printen.
 (Let er op dat de juiste namespace gebruikt wordt zodat `Console2` kan
