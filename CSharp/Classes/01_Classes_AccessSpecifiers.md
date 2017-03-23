@@ -102,7 +102,7 @@ Private members zijn belangrijk om **encapsulatie** te bewerkstelligen.
 
 Enkel overervende classes kunnen er aan (en natuurlijk de class zelf).
 
-Dit doe je voornamelijk voor variabelen die je ook wel veranderen
+Dit doe je voornamelijk voor variabelen die je ook wil veranderen
 in overervende classes.
 Toch kan het gebruik van Properties hier soms ook beter zijn.
 

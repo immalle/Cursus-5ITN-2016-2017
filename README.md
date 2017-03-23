@@ -149,6 +149,7 @@ CSharp
 - Console-class : cursor verplaatsen
 - Console-class : `Console.ReadKey()` en de `ConsoleKeyInfo`-struct
 - Classes i.v.m. bestanden en directories uit `System.IO` (`File`, `Directory`, ...)
+- [Timers, system sounds en Speech Synthesizer](TimerSoundsSpeech.md)
 
 WPF
 

@@ -1,6 +1,6 @@
 # Constructors
 
-Zoals al gezien in [Hoofdstuk 6: Objects](CSharp/06_Objects) gebruiken we
+Zoals al gezien in Hoofdstuk 6 gebruiken we
 constructors om objecten te maken.
 
 
