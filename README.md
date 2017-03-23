@@ -77,9 +77,8 @@ Objecten:
 - Enums
 - Structs (*Value-types*)
 - Classes (*Reference-types*)
-	- (:hash: 10) classes maken
-	- (:hash: 11) overerving (inheritance)
-	- abstracte classes
+	- (:hash: 10) [Classes](CSharp/Classes)
+	- (:hash: 11) [overerving (inheritance) + abstracte classes](CSharp/Overerving)
 	- (:hash: 23) interfaces
 
 Overige:
