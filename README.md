@@ -110,6 +110,8 @@ Overige:
 - (:hash: 14) arrays
 - (:hash: 15) 2D-arrays
 - Dictionary / HashMap / Key-Value-structuur
+- Stack
+- Queue
 
 ## Format strings
 
