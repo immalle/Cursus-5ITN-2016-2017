@@ -77,9 +77,9 @@ Objecten:
 - Enums
 - Structs (*Value-types*)
 - Classes (*Reference-types*)
-	- (:hash: 10) [Classes](CSharp/Classes)
-	- (:hash: 11) [overerving (inheritance) + abstracte classes](CSharp/Overerving)
-	- (:hash: 23) interfaces
+	- :pushpin: (:hash: 10) [Classes](CSharp/Classes)
+	- :pushpin: (:hash: 11) [overerving (inheritance) + abstracte classes](CSharp/Overerving)
+	- :rocket: (:hash: 23) [Interface : introductie](CSharp/InterfacesIntro.md)
 
 Overige:
 
@@ -133,7 +133,8 @@ Overige:
 ## Classes
 
 - :pushpin: (:hash: 10) [Oef. hst. 10](CSharp/OefHst10.md)
-- :pushpin: [Tutorial: zelf classes schrijven](CSharp/classes)
+- :pushpin: [Tutorial: zelf classes schrijven](CSharp/Classes)
+- :pushpin: [Tutorial: overerving](CSharp/Overerving)
 - :rocket: [Interface : introductie](CSharp/InterfacesIntro.md)
 
 ## Scope
