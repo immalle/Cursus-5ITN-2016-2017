@@ -18,6 +18,7 @@ return-type dus `void`
   - <<property>> voor zowel een get- als set-property
   - ...
 
+> Er is geen standaard manier om properties in UML weer te geven.
 
   
 # Oef. Dobbelspel
@@ -38,6 +39,10 @@ Deze UML classes zijn bijna een 1-op-1 vertaling v.d. code:
 class) met 1 parameter: `naam`
 - ...
 
+> Gebruik dergelijke UML-diagrammen om je een beeld te vormen van de applicatie,
+> vooraler je begint te coderen. Je kan mag achteraf (bij het refactoren) altijd
+> afwijken van je UML-diagramma. Het is niet zo heel erg als dat het
+> UML-diagramma *verouderd* geraakt.
 
   
 # Oef dobbelspel 2
