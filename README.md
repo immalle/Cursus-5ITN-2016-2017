@@ -130,7 +130,8 @@ Overige:
 
 ## Classes
 
-- :pushpin: (:hash: 10) [Oef. hst. 10 - tutorial: zelf classes schrijven](CSharp/OefHst10.md)
+- :pushpin: (:hash: 10) [Oef. hst. 10](CSharp/OefHst10.md)
+- :pushpin: [Tutorial: zelf classes schrijven](CSharp/classes)
 - :rocket: [Interface : introductie](CSharp/InterfacesIntro.md)
 
 ## Scope
