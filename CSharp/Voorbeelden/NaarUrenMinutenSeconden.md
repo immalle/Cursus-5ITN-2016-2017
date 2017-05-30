@@ -198,20 +198,6 @@ class Program
         return time;
     }
 
-    static HMSTime SecToHMS(int totalSeconds)
-    {
-        HMSTime time;
-        int rest = 0;
-
-        // algoritme:
-        time.Hours = totalSeconds / (60 * 60);
-        rest = totalSeconds % (60 * 60);
-        time.Mins = rest / 60;
-        time.Secs = rest % 60;
-
-        return time;
-    }
-
     static void Main(string[] args)
     {
         HMSTime time = SecToHMS(61);
