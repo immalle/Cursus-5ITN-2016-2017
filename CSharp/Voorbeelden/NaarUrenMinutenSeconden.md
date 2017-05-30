@@ -253,5 +253,58 @@ static void Main(string[] args)
 
 ## Afgewerkt programma m.b.v. class
 
-:construction:
+Een nette OOP-manier zou zijn dat we zoveel mogelijk encapsuleren in een class.
+
+Er zijn legio mogelijkheden. Enkele keuzes die we maken:
+
+- we willen `TotalSeconds` kunnen opvragen
+- we willen `Hours`, `Mins` en `Secs` kunnen opvragen
+- we kunnen maar op 1 manier de waarde zetten, nl. via een constructor
+- we voorzien een standaard `ToString()` method maar de gebruiker kan de
+  properties gebruiken om een andere string te voorzien (of zou kunnen
+  overerven om de `ToString`-method te overriden)
+
+```
+class Time
+{
+    private int totalSecs;
+    private int hours;
+    private int mins;
+    private int secs;
+
+    public Time(int totalSeconds)
+    {
+        totalSecs = totalSeconds;
+
+        int rest = 0;
+
+        hours = totalSeconds / (60 * 60);
+        rest = totalSeconds % (60 * 60);
+        mins = rest / 60;
+        secs = rest % 60;
+    }
+
+    public int Hours { get { return hours; } }
+    public int Mins { get { return mins; } }
+    public int Secs { get { return secs; } }
+    public int TotalSecs {  get { return TotalSecs; } }
+
+    public override string ToString()
+    {
+        return String.Format("{0} hours {1} minutes and {2} seconds", hours, mins, secs);
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Time t = new Time(61);
+
+        Console.WriteLine(t);
+        Console.WriteLine("{0} seconden zijn eigenlijk {1} uur, {2} minuten en {3} seconden.",
+            t.TotalSecs, t.Hours, t.Mins, t.Secs);
+    }
+}
+```
 
