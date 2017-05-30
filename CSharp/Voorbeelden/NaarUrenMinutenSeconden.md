@@ -211,11 +211,59 @@ class Program
 
         return time;
     }
+
+    static void Main(string[] args)
+    {
+        HMSTime time = SecToHMS(61);
+        Console.WriteLine("{0} hours {1} minutes and {2} seconds", time.Hours, time.Mins, time.Secs);
+    }
+
 }
 ```
 
 De struct `HMSTime` mag eventueel ook *binnen* de class `Program` staan
 maar dan zou je deze daarbuiten niet kunnen gebruiken.
+
+Je zou ook kunnen overwegen om een method te schrijven die met deze `HMSTime` overweg kan, b.v.
+
+```
+static void PrintHMSTime(HMSTime time)
+{
+    Console.WriteLine("{0} hours {1} minutes and {2} seconds", time.Hours, time.Mins, time.Secs);
+}
+```
+
+Je roept deze method dan aan in je `Main`-method.
+
+Nog beter is om b.v. de `ToString()`-functie te overriden in de struct:
+
+```
+struct HMSTime
+{
+    public int Hours;
+    public int Mins;
+    public int Secs;
+
+    public override string ToString()
+    {
+        return String.Format("{0} hours {1} minutes and {2} seconds", Hours, Mins, Secs);
+    }
+}
+```
+
+> Merk op: hoewel een struct een **value**-type is en we er normaal gezien niet van kunnen
+> overerven, kunnen we wel de method van `System.Object` (zoals `ToString`) overriden.
+
+Het gebruik wordt dan simpelweg:
+
+```
+static void Main(string[] args)
+{
+    HMSTime time = SecToHMS(61);
+
+    Console.WriteLine(time);
+}
+```
 
 ## Afgewerkt programma m.b.v. class
 
