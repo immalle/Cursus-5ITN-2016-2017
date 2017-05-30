@@ -93,15 +93,129 @@ Beschouw zeker ook randgevallen en makkelijk te controleren waarden, zoals:
 
 ## Afgewerkt programma m.b.v. `out`-parameters
 
-:construction:
+Het is mogelijk om met een method te werken die meer dan 1 return-waarde heeft
+door met `out`-parameters te werken maar dat is meestal niet de elegantste manier.
+
+Het voordeel is wel dat de method altijd werkt zoals verwacht: met inputs en outputs.
+Ze verandert b.v. geen globale variabelen. We zijn altijd zeker dat deze method met
+dezelfde inputs, dezelfde outputs zal genereren.
+
+```
+class Program
+{
+    static void SecToHMS(int totaalAantalSeconden, out int uren, out int minuten, out int seconden)
+    {
+        // tijdelijke tussentijdse variabele
+        int rest = 0;
+
+        // algoritme:
+        uren = totalSeconds / (60 * 60);
+        rest = totalSeconds % (60 * 60);
+        minuten = rest / 60;
+        seconden = rest % 60;
+    }
+
+    static void Main(string[] args)
+    {
+        int h = 0;
+        int m = 0;
+        int s = 0;
+
+        SecToHoursMinsSecs(61, out h, out m, out s);
+
+        Console.WriteLine("{0} hours {1} minutes and {2} seconds", h, m, s);
+    }
+}
+```
 
 ## Afgewerkt programma m.b.v. globale variabelen (SLECHT!)
 
-:construction:
+Vele programmeurs komen in de verleiding om *globale* variabelen (in dit geval:
+class-variabelen) te gebruiken die dan kunnen aangepast worden door een method en
+gebruikt worden op een andere plaats.
+
+We zondigen dan echter (in dit geval slechts een beetje omdat het zo'n klein
+programma is) tegen het principe van **encapsulatie** dat eigenlijk zegt dat we
+zoveel mogelijk beïnvloeding van buiten af moeten vermijden.
+
+```
+class Program
+{
+    static int hours;
+    static int mins;
+    static int secs;
+
+    static void SecToHoursMinsSecs(int totalSeconds)
+    {
+        int rest = 0;
+
+        hours = totalSeconds / (60 * 60);
+        rest = totalSeconds % (60 * 60);
+        mins = rest / 60;
+        secs = rest % 60;
+    }
+
+    static void Main(string[] args)
+    {
+        SecToHoursMinsSecs(61);
+
+        Console.WriteLine("{0} hours {1} minutes and {2} seconds", hours, mins, secs);
+    }
+}
+```
 
 ## Afgewerkt programma m.b.v. struct
 
-:construction:
+Dit is een elegante oplossing voor het probleem van de meerdere return-waarden
+omdat we ze nu gegroepeerd hebben in 1 data-structuur.
+
+Een method kan zonder probleem 1 dergelijke struct returnen.
+
+We hebben dus opnieuw een method waarbij met bepaalde inputs, steeds dezelfde
+output verwacht wordt. Het algoritme is netjes geëncapsuleerd in deze éne method.
+
+```
+struct HMSTime
+{
+    public int Hours;
+    public int Mins;
+    public int Secs;
+}
+
+
+class Program
+{
+    static HMSTime SecToHMS(int totalSeconds)
+    {
+        HMSTime time;
+        int rest = 0;
+
+        time.Hours = totalSeconds / (60 * 60);
+        rest = totalSeconds % (60 * 60);
+        time.Mins = rest / 60;
+        time.Secs = rest % 60;
+
+        return time;
+    }
+
+    static HMSTime SecToHMS(int totalSeconds)
+    {
+        HMSTime time;
+        int rest = 0;
+
+        // algoritme:
+        time.Hours = totalSeconds / (60 * 60);
+        rest = totalSeconds % (60 * 60);
+        time.Mins = rest / 60;
+        time.Secs = rest % 60;
+
+        return time;
+    }
+}
+```
+
+De struct `HMSTime` mag eventueel ook *binnen* de class `Program` staan
+maar dan zou je deze daarbuiten niet kunnen gebruiken.
 
 ## Afgewerkt programma m.b.v. class
 
